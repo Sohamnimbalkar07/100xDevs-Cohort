@@ -38,3 +38,8 @@ model User {
   posts   Post[]
   profile Profile?
 }
+
+// enum role {
+//   owner
+//   member
+// }
