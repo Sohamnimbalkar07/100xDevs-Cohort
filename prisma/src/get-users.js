@@ -17,6 +17,12 @@ const getUser = async () => {
     return await prisma.user.findUnique({
         where: {
             email : 'sohamnimbalkar07@gmail.com'
+        },
+        select: {
+            id: true,
+            email: true,
+            name: true,
+            posts: true
         }
     })
 }
