@@ -14,6 +14,9 @@ const createUser = async () => {
             profile: {
                 create: { bio: 'I like coding' }
             }
+        },
+        select: {
+            id: true
         }
     }
     );
