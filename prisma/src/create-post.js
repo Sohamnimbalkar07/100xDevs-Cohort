@@ -10,7 +10,7 @@ const createPost = async () => {
             //authorId: 3
             author: {
                 connect: {
-                    id:3
+                    id:1
                 }
             },
             

@@ -12,11 +12,11 @@ export const NEXT_AUTH = {
                 password: {label: 'password', type: 'password', placeholder: 'password'},
             },
             async authorize(credentials: any){
-                console.log(credentials);
+                console.log("credentials is", credentials);
                 return {
                     id: "user1",
                     name: "soham nimbalkar",
-                    email: "sohamnimbalkar07@gmail.com"
+                    email: "sohamnimbalkar@gmail.com"
                 }
             }
         }),
@@ -34,18 +34,19 @@ export const NEXT_AUTH = {
             return true;
         },
         jwt: ({ token, user}) => {
-            console.log(token);
+            console.log("token is", token);
             token.userId = token.sub;
             return token;
         },
         session: ({ session, token, user }: any) => {
             if (session.user) {
                 session.user.id = token.userId
+                console.log("session user is ",session.user);
             }
             return session
         }
     },
-    pages: {
-        signIn : '/signin'
-    }
+    // pages: {
+    //     signIn : '/signin'
+    // }
 }
