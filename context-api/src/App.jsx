@@ -4,12 +4,12 @@ import { countContext } from "./context";
 
 function App() {
   const [count, setCount] = useState(0);
-  
-  // wrap anyone thats wants to use the teleported value inside a provider 
+
+  // wrap anyone thats wants to use the teleported value inside a provider
   return (
     <div>
-      <countContext.Provider value={{ count, setCount}}>
-      <Count />
+      <countContext.Provider value={{ count, setCount }}>
+        <Count />
       </countContext.Provider>
     </div>
   );
