@@ -5,7 +5,6 @@ const wss = new WebSocketServer({ port: 8080 });
 let senderSocket: null | WebSocket = null;
 let receiverSocket: null | WebSocket = null;
 
-//whenever client connects to the server, this callback is invoked with ws object representing that connection.
 wss.on('connection', function connection(ws) {
   
     ws.on('error', console.error);

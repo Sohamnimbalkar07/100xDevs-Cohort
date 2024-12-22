@@ -59,7 +59,6 @@ export const Sender = () => {
             const video = document.createElement('video');
             video.srcObject = stream;
             video.play();
-            // this is wrong, should propogate via a component
             document.body.appendChild(video);
             stream.getTracks().forEach((track) => {
                 console.error("track added");
