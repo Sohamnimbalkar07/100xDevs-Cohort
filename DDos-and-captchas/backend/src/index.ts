@@ -30,7 +30,7 @@ app.post('/reset-password', async (req : any, res : any) => {
   console.log(token);
 
   let formData = new FormData();
-	formData.append('secret', SECRET_KEY);
+	formData.append('secret', '0x4AAAAAAA4YGe0LahUTE1NVXKPsF0bcAzs');
 	formData.append('response', token);
 
   const url = 'https://challenges.cloudflare.com/turnstile/v0/siteverify';

@@ -14,7 +14,7 @@ function App() {
 
       <Turnstile onSuccess={(token : string) => {
         setToken(token)
-      }} siteKey='site-key' />
+      }} siteKey='0x4AAAAAAA4YGWYZw_m2FbNB' />
 
       <button onClick={() => {
         axios.post("http://localhost:3000/reset-password", {
