@@ -1,0 +1,2 @@
+Ref - https://turbo.build/repo/docs/getting-started/create-new#3-understanding-turbojson
+References - https://turbo.build/repo/docs/reference/configuration#globaldependencies
