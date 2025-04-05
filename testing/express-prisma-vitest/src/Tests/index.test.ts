@@ -13,7 +13,7 @@ describe("POST /sum", () => {
       prismaClient.sum.create.mockResolvedValue({
         id: 1,
         a: 1,
-        b: 1,
+        b: 2,
         result: 3
       });
 
