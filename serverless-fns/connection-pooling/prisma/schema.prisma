@@ -19,6 +19,5 @@ model User {
   name     String
   email    String
 	password String
-  test String @default("asd")
 }
 

@@ -1,0 +1,1 @@
+https://www.prisma.io/docs/orm/prisma-client/deployment/edge/deploy-to-cloudflare
