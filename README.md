@@ -26,6 +26,12 @@ Welcome to my personal learning journey as part of the **100xDevs** cohort by **
 - Implemented **Pub/Sub patterns** for **decoupled microservices**
 - Handled **background jobs** and **real-time messaging systems**
 
+### 🌐 WebSockets
+- Learned about **WebSockets**, enabling **bi-directional real-time communication** between clients and servers.
+- Implemented **WebSocket connections** for applications that require **live updates** such as **chat systems**, **live notifications**, and **real-time data streaming**.
+- Explored the benefits of WebSockets for **low-latency** and **persistent** communication channels.
+- Gained hands-on experience in managing **WebSocket connections**, ensuring reliable messaging and **scalable real-time communication** in distributed systems.
+
 ---
 
 ## ☸️ DevOps, Scalability & Monitoring
